@@ -6,7 +6,7 @@ var secondsElem = document.querySelector("#seconds h1");
 
 setInterval(function(){
     var today = new Date();
-var future = new Date(2024, 0, 1, 0, 0, 0, 0);
+var future = new Date(2027, 0, 1, 0, 0, 0, 0);
 
 var diff = future - today;
 
